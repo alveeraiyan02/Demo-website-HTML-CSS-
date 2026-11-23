@@ -1,0 +1,625 @@
+body{
+	/*10=A 11=B 12=C 13=D 14=E 15=F 0 1 2 3 4 5 6 7 8 9 A B C D E F*/
+	background-color: lightgoldenrodyellow;
+
+}
+
+.box1{
+	position: relative;
+	height: 130px ;
+	width: 100%;
+}
+
+.box1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box2{	
+	height: 80px ;
+	width: 100%;
+	background-color: chocolate;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.box3{
+	clear: left;
+	height: 250px ;
+	width: 100%;
+}
+
+.box4{
+	clear: left;
+	height: 580px ;
+	width: 100%;
+	background-color: chocolate;
+}
+
+.box5{
+	height: 200px ;
+	width: 100%;
+}
+
+.box5 img {
+    display: block;
+    margin: 0 auto;
+    transform: translateY(20px);
+}
+
+
+.box6{
+	height: 30px ;
+	width: 100%;
+	background-color: white;
+}
+
+.box7{
+	clear: left;
+	height: 200px ;
+	width: 100%;
+	background-color: chocolate;
+}
+
+.h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    text-shadow: 0px 0px 6px pink;
+}
+
+.h2{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.h2:hover {
+    color: blue;
+}
+
+.h3{
+	font-size: 30px;
+	text-align: center;
+	font-style: italic;
+	color: black;
+	text-decoration: none;
+	text-shadow: 0px 0px 6px white;
+}
+
+.text1{
+	font-size: 15px;
+	text-align: center;
+}
+
+.text2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    display: table;
+    margin: 0 auto;
+    background-color: #bd9292;
+    border: 2px solid black;
+}
+
+.box4 iframe {
+    width: 400px;
+    height: 300px;
+    border: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.text3{
+	font-size: 20px;
+	text-align: center;
+	font-style: oblique;
+	color: white;
+}
+
+.h4{
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	text-shadow: 0px 0px 6px white;
+}
+
+.text4{
+	font-size: 20px;
+	text-align: center;
+	font-style: italic;
+	color: white;
+}
+
+.social {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin: 0 8px;
+    vertical-align: middle;
+}
+
+.box8{
+	clear: left;
+	height: 150px ;
+	width: 100%;
+}
+
+
+.coffee-section {
+    width: 100%;
+    padding: 30px 20px;
+    background-color: #f5eee8;
+    text-align: center;
+}
+
+.coffee-section h2 {
+    font-size: 30px;
+    color: #4b2e2e;
+}
+
+.coffee-section > p {
+    font-size: 18px;
+    color: black;
+}
+
+
+.coffee{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.coffeesel{
+    width: 40%;
+    padding: 15px;
+    background-color: white;
+    border: 2px solid #bd9292;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.coffeesel img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.coffeesel h3 {
+    font-size: 22px;
+    color: #4b2e2e;
+}
+
+.coffeesel p {
+    font-size: 16px;
+    color: black;
+}
+
+.coffeesel .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4b2e2e;
+}
+
+.orderButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4b2e2e;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.coffee-section {
+    width: 100%;
+    padding: 30px 20px;
+    background-color: #f5eee8;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.coffee-section h2 {
+    font-size: 30px;
+    color: #4b2e2e;
+}
+
+.coffee-section > p {
+    font-size: 18px;
+    color: black;
+}
+
+.coffee {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.coffeesel {
+    width: calc(50% - 15px);
+    padding: 15px;
+    background-color: white;
+    border: 2px solid #bd9292;
+    text-align: center;
+    box-sizing: border-box;
+    min-width: 0;
+}
+
+.coffeesel img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.coffeesel h3 {
+    font-size: 22px;
+    color: #4b2e2e;
+}
+
+.coffeesel p {
+    font-size: 16px;
+    color: black;
+    overflow-wrap: break-word;
+}
+
+.coffeesel .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4b2e2e;
+}
+
+.orderButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4b2e2e;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.orderButton:hover {
+    background-color: #bd9292;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .coffeesel {
+        width: 100%;
+    }
+
+    .coffee {
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .coffee-section h2 {
+        font-size: 25px;
+    }
+}
+
+.text5{
+    font-size: 17px;
+    color: black;
+}
+
+.brewequip{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+    background-color: #f5eee8;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.brewequip h2 {
+    font-size: 30px;
+    color: #4b2e2e;
+}
+
+.equip{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.equiplist{
+    width: calc(50% - 15px);
+    height: auto;
+    padding: 15px;
+    background-color: white;
+    border: 2px solid #bd9292;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.equiplist img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.equiplist h3 {
+    font-size: 22px;
+    color: #4b2e2e;
+}
+
+.equiplist p {
+    font-size: 16px;
+    color: black;
+}
+
+.equiplist .equipPrice {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4b2e2e;
+}
+@media screen and (max-width: 768px) {
+    .equiplist {
+        width: 100%;
+    }
+
+    .equip{
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .brewequip h2 {
+        font-size: 25px;
+    }
+}
+
+.text6{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0px 0px 10px white;
+}
+
+.text7{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+.workshopHead{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+    background-color: #f5eee8;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.workshopHead h2 {
+    font-size: 30px;
+    color: #4b2e2e;
+}
+
+.workshop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.eventlist{
+    width: calc(50% - 15px);
+    height: auto;
+    padding: 15px;
+    background-color: white;
+    border: 2px solid #bd9292;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.eventlist img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.eventlist h3 {
+    font-size: 22px;
+    color: #4b2e2e;
+}
+
+.eventlist p {
+    font-size: 16px;
+    color: black;
+}
+
+.eventlist .workPrice {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4b2e2e;
+}
+@media screen and (max-width: 768px) {
+    .eventlist {
+        width: 100%;
+    }
+
+    .workshop{
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .workshopHead h2 {
+        font-size: 25px;
+    }
+}
+
+.date {
+    font-size: 15px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.registration {
+    width: 60%;
+    height: auto;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #f5eee8;
+    border: 2px solid #bd9292;
+    box-sizing: border-box;
+}
+
+.registration h2 {
+    font-size: 28px;
+    color: #4b2e2e;
+    text-align: center;
+}
+
+.registration p {
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+.registration label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #4b2e2e;
+    font-weight: bold;
+}
+
+.registration input[type="text"],
+.registration input[type="tele"],
+.registration input[type="email"],
+.registration select {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid #bd9292;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.registerButton {
+    display: block;
+    margin: 20px auto 0;
+    padding: 12px 25px;
+    background-color: #4b2e2e;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.registerButton:hover {
+    background-color: #bd9292;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .registration {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .registration h2 {
+        font-size: 25px;
+    }
+}
+
+.announnce{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+    margin-top: 20px;
+    background-color: #4b2e2e;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.announnce h2 {
+    font-size: 30px;
+    color: lightgoldenrodyellow;
+}
+
+.announnce > p {
+    font-size: 18px;
+    color: white;
+}
+
+.discount {
+    display: inline-block;
+    width: 40%;
+    height: auto;
+    margin: 15px;
+    padding: 15px;
+    background-color: #f5eee8;
+    border: 2px dashed #bd9292;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.discount h3 {
+    font-size: 30px;
+    color: #4b2e2e;
+    margin: 10px 0;
+}
+
+.discount p {
+    font-size: 18px;
+    color: #4b2e2e;
+    font-weight: bold;
+}
+
+.announnce .memmessage {
+    font-size: 18px;
+    font-weight: bold;
+    color: lightgoldenrodyellow;
+}
+
+@media screen and (max-width: 768px) {
+    .announnce h2 {
+        font-size: 24px;
+    }
+
+    .discount {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
